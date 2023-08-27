@@ -1,0 +1,4 @@
+- calculate radius C/ 2pi
+- formula of a circle are is A=pi \* r2
+- pi in js is Math.PI and r2 = radius \*\*;
+- calculate circumference ==> C=2 _pi_ r
