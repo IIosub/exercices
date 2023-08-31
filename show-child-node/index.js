@@ -11,7 +11,7 @@
 // "index" is the index of the child node
 
 const showChild = (node, index) => {
-  console.log(node.childNodes[index]);
+  console.error(node.childNodes[index]);
 };
 
 // Should show the h1 node
