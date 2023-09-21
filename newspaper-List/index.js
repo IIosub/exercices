@@ -14,6 +14,7 @@ function showNews() {
     linkElement.setAttribute("href", newspaperUrl);
 
     linkElement.style.display = "block";
+    linkElement.style.color = "blue";
 
     linkElement.textContent = newspaperUrl;
 
