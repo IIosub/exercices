@@ -14,10 +14,11 @@ clickMe.addEventListener("click", incrementClick);
 function decrementClick() {
   const decrementNum = document.getElementById("clickCount");
   const currentCount = parseInt(decrementNum.textContent);
-  const decrementValue = currentCount - 1;
 
-  decrementNum.textContent = decrementValue;
+  if (currentCount > 0) {
+    const decrementValue = currentCount - 1;
+    decrementNum.textContent = decrementValue;
+  }
 }
-
 const disactivateCountin = document.getElementById("deactivate");
 disactivateCountin.addEventListener("click", decrementClick);
